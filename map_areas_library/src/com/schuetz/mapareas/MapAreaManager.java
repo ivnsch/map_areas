@@ -230,11 +230,11 @@ public class MapAreaManager implements OnMarkerDragListener, OnMapLongClickListe
 	        	break;
 	        }
 	        case radiusChange: {
-	        	circleManagerListener.onResizeCircleStart(result.draggableCircle);
+	        	circleManagerListener.onResizeCircleEnd(result.draggableCircle);
 	        	break;
 	        }
 	        case moved: {
-    			circleManagerListener.onMoveCircleStart(result.draggableCircle);
+    			circleManagerListener.onMoveCircleEnd(result.draggableCircle);
 	        	break;
 	        }
 	        default: break;
