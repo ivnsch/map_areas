@@ -4,6 +4,7 @@ map_areas
 
 Android maps v2 circles library
 
+#### Note: Not being actively maintained anymore but I accept pull requests!
 
 ![ScreenShot](https://raw.github.com/i-schuetz/map_areas/master/screen1.png)
 
@@ -29,7 +30,6 @@ Android maps v2 circles library
 Each event parameter delivers circle with geocoordinates and radius. Circle can be accessed / modified in listener.
 
 - Customizable / extendable.
-
 
 
 
